@@ -3,7 +3,7 @@ import pymysql
 def get_connection():
     return pymysql.connect(
         host="localhost",
-        user="root",
-        password="kali",
+        user="",
+        password="",
         database="user_db"
     )
